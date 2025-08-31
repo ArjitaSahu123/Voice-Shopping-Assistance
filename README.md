@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# 🛍️ Voice Shopping Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **voice-powered shopping list manager** with smart suggestions and **multilingual support (5 languages)**.  
+Built as part of a **technical assessment** for the Software Engineer role.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌍 Supported Languages
 
-### `npm start`
+This app supports commands in **5 languages**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. 🇬🇧 English  
+2. 🇮🇳 Hindi (हिंदी)  
+3. 🇪🇸 Spanish (Español)  
+4. 🇫🇷 French (Français)  
+5. 🇩🇪 German (Deutsch)  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🎤 How to Use (Voice Commands)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Speak into the mic using natural phrases. Examples:
 
-### `npm run build`
+### ➕ Adding Items
+- **English**: "Add milk", "I need 2 kilos of tomatoes"  
+- **Hindi**: "एक किलो टमाटर जोड़ो", "दो पैकेट दूध चाहिए"  
+- **Spanish**: "Añadir pan", "Quiero comprar tres manzanas"  
+- **French**: "Ajoute du lait", "Acheter deux bananes"  
+- **German**: "Füge Milch hinzu", "Kaufe fünf Äpfel"  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ➖ Removing Items
+- "Remove milk" | "हटा दो आलू" | "Eliminar pan" | "Supprime les pommes" | "Entferne Brot"  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📊 Managing Quantities
+- "Add 3 bottles of water" | "तीन बोतल पानी जोड़ो" | "Agrega 2 kilos de arroz" | "Ajoute deux litres de jus" | "Füge 1 Kilo Zucker hinzu"  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🔍 Searching
+- "Find Amul milk" | "ऑर्गेनिक सेब ढूँढो" | "Busca leche orgánica" | "Trouve du lait bio" | "Finde Bio-Milch"  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 🎤 **Voice Input with NLP** (multilingual, flexible phrases)  
+- 🛒 **Smart shopping list management** (add/remove, categorize, quantity parsing)  
+- 🤖 **Smart suggestions** (frequent, seasonal, substitutes)  
+- 🔍 **Voice search with filters** (brand, price, size)  
+- 🎨 **UI/UX**: Minimalist, glassmorphism, dark/light themes, real-time transcript  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Frontend:** React  
+- **Voice Recognition:** Web Speech API  
+- **Language Parsing:** Custom NLP parser (`utils/parser.js`)  
+- **Multilingual Translations:** `utils/translations.js`  
+- **Styling:** CSS3 (glassy theme, animations)  
+- **Deployment:** Vercel  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⚙️ Installation & Setup
 
-### Code Splitting
+```bash
+# Clone repository
+git clone https://github.com/ArjitaSahu123/Voice-Shopping-Assistance.git
+cd Voice-Shopping-Assistance
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Install dependencies
+``` bash
+    npm install
+```
 
-### Analyzing the Bundle Size
+### Run locally
+``` bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Build for production
+``` bash
+    npm run build
+```
 
-### Making a Progressive Web App
+### Deploy (if vercel CLI installed)
+```bash
+  vercel
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📖 My Approach
 
-### Advanced Configuration
+This project was completed as part of a time-boxed assessment (8 hours).
+Here’s how I approached each requirement:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 🎤 Voice Input & NLP
 
-### Deployment
+1. Integrated Web Speech API for live voice recognition.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Built a custom parser (utils/parser.js) to extract:
 
-### `npm run build` fails to minify
+3. Item name (e.g., milk, apples, प्याज)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Quantity (e.g., 2, दो)
+
+5. Units (e.g., kg, litre, पैकेट)
+
+6. Added multilingual mapping to handle inputs across 5 languages.
+
+###  🛒 Shopping List Management
+
+1. Designed a reusable ShoppingList.js component.
+
+2. Items stored in structured format { name, qty, unit, category }.
+
+3. Auto-categorization into groups (Dairy, Bakery, Vegetables, etc.).
+
+4. Implemented both manual delete button and voice-based remove commands.
+
+### 🤖 Smart Suggestions
+
+1. Created recommendations.js for:
+
+2. Frequently purchased items
+
+3. Seasonal recommendations
+
+4. Substitutes (e.g., "milk → almond milk").
+
+### 🔍 Voice Search
+
+1. Built SearchResults.js to show search results.
+
+2. Parser enhanced to detect filters (brand, price, "under ₹50").
+
+### 🎨 UI/UX
+
+1. Developed a minimal, glassy design (style.css).
+
+2. Dark & light themes with smooth transitions.
+
+3. Added category icons for quick recognition (🥛 Dairy, 🍞 Bakery).
+
+4. Transcript area shows “Last Heard” so users know what was recognized.
+
+### 🚀 Deployment
+
+1. Hosted on Vercel for fast and reliable deployment.
+
+2. GitHub repo maintained with clean commits & this README as documentation.
+
+### ✨ Deliverables
+
+Working App URL:
+👉 https://voice-shopping-assistant.vercel.app
+
+GitHub Repository:
+👉 https://github.com/ArjitaSahu123/Voice-Shopping-Assistance
+
+Documentation:
+This README + inline code comments
+
