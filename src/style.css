@@ -55,8 +55,7 @@ body{
 
 /* ✅ Light theme with background image */
 :root[data-theme="light"] body {
-  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)),
-              url(""); /* image must be inside /public */
+  background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.7)) ; /* image must be inside /public */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
