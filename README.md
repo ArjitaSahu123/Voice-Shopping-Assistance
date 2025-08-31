@@ -3,6 +3,9 @@
 A **voice-powered shopping list manager** with smart suggestions and **multilingual support (5 languages)**.  
 Built as part of a **technical assessment** for the Software Engineer role.
 
+<img width="889" height="564" alt="image" src="https://github.com/user-attachments/assets/6d14742b-59fe-43c7-b780-326d2c25f85f" />
+<img width="889" height="470" alt="image" src="https://github.com/user-attachments/assets/cfc989dd-2df1-4a94-89bd-beb2e7881d0b" />
+
 ---
 
 ## 🌍 Supported Languages
@@ -27,15 +30,24 @@ Speak into the mic using natural phrases. Examples:
 - **Spanish**: "Añadir pan", "Quiero comprar tres manzanas"  
 - **French**: "Ajoute du lait", "Acheter deux bananes"  
 - **German**: "Füge Milch hinzu", "Kaufe fünf Äpfel"  
+<img width="913" height="471" alt="image" src="https://github.com/user-attachments/assets/6bfffa26-5612-4d38-b102-227b269e5436" />
+
 
 ### ➖ Removing Items
-- "Remove milk" | "हटा दो आलू" | "Eliminar pan" | "Supprime les pommes" | "Entferne Brot"  
+- "Remove milk" | "हटा दो आलू" | "Eliminar pan" | "Supprime les pommes" | "Entferne Brot"
+
+  <img width="903" height="469" alt="image" src="https://github.com/user-attachments/assets/fb4c46fa-d86f-4c53-ab0f-e4a0144d119d" />
+
 
 ### 📊 Managing Quantities
-- "Add 3 bottles of water" | "तीन बोतल पानी जोड़ो" | "Agrega 2 kilos de arroz" | "Ajoute deux litres de jus" | "Füge 1 Kilo Zucker hinzu"  
+- "Add 3 bottles of water" | "तीन बोतल पानी जोड़ो" | "Agrega 2 kilos de arroz" | "Ajoute deux litres de jus" | "Füge 1 Kilo Zucker hinzu"
+<img width="1894" height="918" alt="image" src="https://github.com/user-attachments/assets/16619abb-8cbd-4fa8-897f-da7fa24a4bd3" />
+
+- 
 
 ### 🔍 Searching
 - "Find Amul milk" | "ऑर्गेनिक सेब ढूँढो" | "Busca leche orgánica" | "Trouve du lait bio" | "Finde Bio-Milch"  
+<img width="915" height="469" alt="image" src="https://github.com/user-attachments/assets/b0b44828-4ac6-4a31-9e39-1f89cdeea419" />
 
 ---
 
@@ -152,7 +164,7 @@ Here’s how I approached each requirement:
 ### ✨ Deliverables
 
 Working App URL:
-👉 https://voice-shopping-assistant.vercel.app
+👉 (https://voice-shopping-assistance-git-main-arjita-sahus-projects.vercel.app?_vercel_share=7jgXViKcgUtNdfXnFOb9NXGweh6ZKiQO)
 
 GitHub Repository:
 👉 https://github.com/ArjitaSahu123/Voice-Shopping-Assistance
