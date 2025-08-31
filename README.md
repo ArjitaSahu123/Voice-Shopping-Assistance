@@ -171,5 +171,10 @@ GitHub Repository:
 
 Documentation:
 This README + inline code comments
+```
 https://docs.google.com/document/d/1NTSjwzdZ5ki-RsPIRpNRSeVMUyFscqEb/edit?usp=sharing&ouid=114467768247693715530&rtpof=true&sd=true
+```
+For further queries:
+Author: Arjita Sahu
+github id : ArjitaSahu123
 
